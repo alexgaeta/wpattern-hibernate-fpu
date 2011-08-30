@@ -17,8 +17,7 @@ public class ProductBean extends BaseBean {
 
 	private CategoryBean category;
 
-	public ProductBean() {
-	}
+	public ProductBean() { }
 
 	public ProductBean(Long id) {
 		this.id = id;
