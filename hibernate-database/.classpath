@@ -4,19 +4,19 @@
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/hibernate-utils"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/commons-lang3-3.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/javassist-3.12.0.GA.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/junit-4.9.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/slf4j-api-1.6.2.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/slf4j-log4j12-1.6.2.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/hibernate3.jar"/>
-	<classpathentry kind="lib" path="D:/Workspace/hibernate-utils/libs/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/commons-lang3-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/junit-4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/slf4j-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/slf4j-log4j12-1.6.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
