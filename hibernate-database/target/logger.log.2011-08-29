@@ -1,0 +1,672 @@
+29-08-2011 00:18:55,926; [main]; WARN ; org.hibernate.internal.util.xml.DTDEntityResolver;  - HHH00223:Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:18:56,368; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - HHH00231:Schema export unsuccessful
+java.lang.NullPointerException
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:54)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:346)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:283)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:279)
+	at br.com.branquinho.hibernate.database.test.GerenciadorTest.criarBancoDeDados(GerenciadorTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+29-08-2011 00:22:04,172; [main]; WARN ; org.hibernate.internal.util.xml.DTDEntityResolver;  - HHH00223:Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:22:04,560; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - HHH00231:Schema export unsuccessful
+java.lang.NullPointerException
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:54)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:346)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:283)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:279)
+	at br.com.branquinho.hibernate.database.GenericDao.criarBancoDeDados(GenericDao.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+29-08-2011 00:22:15,991; [main]; WARN ; org.hibernate.internal.util.xml.DTDEntityResolver;  - HHH00223:Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:22:16,320; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - HHH00231:Schema export unsuccessful
+java.lang.NullPointerException
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:54)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:346)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:283)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:279)
+	at br.com.branquinho.hibernate.database.GenericDao.criarBancoDeDados(GenericDao.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+29-08-2011 00:23:17,864; [main]; WARN ; org.hibernate.internal.util.xml.DTDEntityResolver;  - HHH00223:Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:23:18,136; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - HHH00231:Schema export unsuccessful
+java.lang.NullPointerException
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:54)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:346)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:283)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:279)
+	at br.com.branquinho.hibernate.database.GenericDao.criarBancoDeDados(GenericDao.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+29-08-2011 00:35:19,777; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:35:20,068; [main]; ERROR; org.hibernate.connection.DriverManagerConnectionProvider;  - JDBC Driver class not found: org.gjt.mm.mysql.Driver
+java.lang.ClassNotFoundException: org.gjt.mm.mysql.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:84)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:143)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:84)
+	at org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper.prepare(ManagedProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:263)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:219)
+	at br.com.branquinho.hibernate.database.test.GerenciadorTest.criarBancoDeDados(GerenciadorTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+29-08-2011 00:35:20,074; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - schema export unsuccessful
+org.hibernate.HibernateException: JDBC Driver class not found: org.gjt.mm.mysql.Driver
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:89)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:143)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:84)
+	at org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper.prepare(ManagedProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:263)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:219)
+	at br.com.branquinho.hibernate.database.test.GerenciadorTest.criarBancoDeDados(GerenciadorTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+Caused by: java.lang.ClassNotFoundException: org.gjt.mm.mysql.Driver
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:84)
+	... 29 more
+29-08-2011 00:35:55,033; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:37:45,947; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:38:27,311; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:50:12,200; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:50:28,525; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:51:16,729; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration boolean -> org.hibernate.type.BooleanType@309ff0a8
+29-08-2011 00:51:16,731; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration boolean -> org.hibernate.type.BooleanType@309ff0a8
+29-08-2011 00:51:16,732; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@309ff0a8
+29-08-2011 00:51:16,737; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@68a0864f
+29-08-2011 00:51:16,746; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@506835fb
+29-08-2011 00:51:16,749; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration yes_no -> org.hibernate.type.YesNoType@1fc8efd1
+29-08-2011 00:51:16,754; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration byte -> org.hibernate.type.ByteType@6b552b76
+29-08-2011 00:51:16,754; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration byte -> org.hibernate.type.ByteType@6b552b76
+29-08-2011 00:51:16,760; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6b552b76
+29-08-2011 00:51:16,763; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration character -> org.hibernate.type.CharacterType@46165b7e
+29-08-2011 00:51:16,763; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration char -> org.hibernate.type.CharacterType@46165b7e
+29-08-2011 00:51:16,763; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@46165b7e
+29-08-2011 00:51:16,768; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration short -> org.hibernate.type.ShortType@4edc41c5
+29-08-2011 00:51:16,769; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration short -> org.hibernate.type.ShortType@4edc41c5
+29-08-2011 00:51:16,769; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4edc41c5
+29-08-2011 00:51:16,774; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration integer -> org.hibernate.type.IntegerType@20e183e9
+29-08-2011 00:51:16,774; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration int -> org.hibernate.type.IntegerType@20e183e9
+29-08-2011 00:51:16,774; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@20e183e9
+29-08-2011 00:51:16,778; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration long -> org.hibernate.type.LongType@608b8a47
+29-08-2011 00:51:16,778; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration long -> org.hibernate.type.LongType@608b8a47
+29-08-2011 00:51:16,779; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@608b8a47
+29-08-2011 00:51:16,783; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration float -> org.hibernate.type.FloatType@3fe2670b
+29-08-2011 00:51:16,783; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration float -> org.hibernate.type.FloatType@3fe2670b
+29-08-2011 00:51:16,784; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3fe2670b
+29-08-2011 00:51:16,787; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration double -> org.hibernate.type.DoubleType@44676e3f
+29-08-2011 00:51:16,787; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration double -> org.hibernate.type.DoubleType@44676e3f
+29-08-2011 00:51:16,787; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@44676e3f
+29-08-2011 00:51:16,791; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5a20f443
+29-08-2011 00:51:16,791; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5a20f443
+29-08-2011 00:51:16,794; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1b0deb5f
+29-08-2011 00:51:16,794; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1b0deb5f
+29-08-2011 00:51:16,796; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration string -> org.hibernate.type.StringType@7eb5666
+29-08-2011 00:51:16,797; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.String -> org.hibernate.type.StringType@7eb5666
+29-08-2011 00:51:16,799; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration url -> org.hibernate.type.UrlType@72e8a021
+29-08-2011 00:51:16,800; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@72e8a021
+29-08-2011 00:51:16,806; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration date -> org.hibernate.type.DateType@7a70610a
+29-08-2011 00:51:16,807; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@7a70610a
+29-08-2011 00:51:16,812; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration time -> org.hibernate.type.TimeType@78e45b5e
+29-08-2011 00:51:16,812; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@78e45b5e
+29-08-2011 00:51:16,815; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration timestamp -> org.hibernate.type.TimestampType@30e34726
+29-08-2011 00:51:16,816; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@30e34726
+29-08-2011 00:51:16,816; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@30e34726
+29-08-2011 00:51:16,818; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1b980630
+29-08-2011 00:51:16,820; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration calendar -> org.hibernate.type.CalendarType@6f347124
+29-08-2011 00:51:16,820; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6f347124
+29-08-2011 00:51:16,820; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6f347124
+29-08-2011 00:51:16,822; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@d5d4de6
+29-08-2011 00:51:16,824; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration locale -> org.hibernate.type.LocaleType@435bb0f
+29-08-2011 00:51:16,824; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@435bb0f
+29-08-2011 00:51:16,826; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration currency -> org.hibernate.type.CurrencyType@581de498
+29-08-2011 00:51:16,826; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@581de498
+29-08-2011 00:51:16,828; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6da0d866
+29-08-2011 00:51:16,829; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6da0d866
+29-08-2011 00:51:16,830; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration class -> org.hibernate.type.ClassType@644cd580
+29-08-2011 00:51:16,830; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@644cd580
+29-08-2011 00:51:16,833; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2322bce
+29-08-2011 00:51:16,834; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2322bce
+29-08-2011 00:51:16,835; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@23e0512a
+29-08-2011 00:51:16,838; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@561557c0
+29-08-2011 00:51:16,841; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration binary -> org.hibernate.type.BinaryType@ebf5555
+29-08-2011 00:51:16,841; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration byte[] -> org.hibernate.type.BinaryType@ebf5555
+29-08-2011 00:51:16,841; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration [B -> org.hibernate.type.BinaryType@ebf5555
+29-08-2011 00:51:16,844; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@344977e2
+29-08-2011 00:51:16,845; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@344977e2
+29-08-2011 00:51:16,845; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@344977e2
+29-08-2011 00:51:16,847; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration image -> org.hibernate.type.ImageType@281ec58a
+29-08-2011 00:51:16,850; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration characters -> org.hibernate.type.CharArrayType@6b9fe451
+29-08-2011 00:51:16,850; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration char[] -> org.hibernate.type.CharArrayType@6b9fe451
+29-08-2011 00:51:16,850; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration [C -> org.hibernate.type.CharArrayType@6b9fe451
+29-08-2011 00:51:16,853; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@643f96ee
+29-08-2011 00:51:16,854; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@643f96ee
+29-08-2011 00:51:16,854; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@643f96ee
+29-08-2011 00:51:16,856; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration text -> org.hibernate.type.TextType@2e257f1b
+29-08-2011 00:51:16,871; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration blob -> org.hibernate.type.BlobType@63d87b85
+29-08-2011 00:51:16,872; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@63d87b85
+29-08-2011 00:51:16,873; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@d02b2b6
+29-08-2011 00:51:16,874; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@614a75bb
+29-08-2011 00:51:16,882; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration clob -> org.hibernate.type.ClobType@1f415056
+29-08-2011 00:51:16,883; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1f415056
+29-08-2011 00:51:16,884; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@256eb6bc
+29-08-2011 00:51:16,885; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@5a4bf53e
+29-08-2011 00:51:16,887; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@66b51404
+29-08-2011 00:51:16,889; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration serializable -> org.hibernate.type.SerializableType@6f18278a
+29-08-2011 00:51:16,894; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration object -> org.hibernate.type.ObjectType@d5c0f9
+29-08-2011 00:51:16,894; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@d5c0f9
+29-08-2011 00:51:16,895; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@25786286
+29-08-2011 00:51:16,895; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@28c5ea2
+29-08-2011 00:51:16,895; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4d98defc
+29-08-2011 00:51:16,895; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6f579a30
+29-08-2011 00:51:16,896; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@604bfe6b
+29-08-2011 00:51:16,896; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1d2c5431
+29-08-2011 00:51:16,896; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@494b6bed
+29-08-2011 00:51:16,896; [main]; DEBUG; org.hibernate.type.BasicTypeRegistry;  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@769aba32
+29-08-2011 00:51:16,927; [main]; INFO ; org.hibernate.annotations.common.Version;  - Hibernate Commons Annotations 3.2.0.Final
+29-08-2011 00:51:16,936; [main]; INFO ; org.hibernate.cfg.Environment;  - Hibernate 3.6.7.Final
+29-08-2011 00:51:16,939; [main]; INFO ; org.hibernate.cfg.Environment;  - hibernate.properties not found
+29-08-2011 00:51:16,940; [main]; INFO ; org.hibernate.cfg.Environment;  - Bytecode provider name : javassist
+29-08-2011 00:51:16,940; [main]; INFO ; org.hibernate.cfg.Environment;  - using JDK 1.4 java.sql.Timestamp handling
+29-08-2011 00:51:17,018; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+29-08-2011 00:51:17,020; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+29-08-2011 00:51:17,021; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+29-08-2011 00:51:17,022; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+29-08-2011 00:51:17,025; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+29-08-2011 00:51:17,026; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+29-08-2011 00:51:17,028; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+29-08-2011 00:51:17,029; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+29-08-2011 00:51:17,030; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+29-08-2011 00:51:17,031; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+29-08-2011 00:51:17,032; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+29-08-2011 00:51:17,033; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+29-08-2011 00:51:17,034; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+29-08-2011 00:51:17,035; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+29-08-2011 00:51:17,036; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+29-08-2011 00:51:17,038; [main]; INFO ; org.hibernate.cfg.Configuration;  - configuring from resource: /hibernate.cfg.xml
+29-08-2011 00:51:17,038; [main]; INFO ; org.hibernate.cfg.Configuration;  - Configuration resource: /hibernate.cfg.xml
+29-08-2011 00:51:17,092; [main]; DEBUG; org.hibernate.util.DTDEntityResolver;  - trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+29-08-2011 00:51:17,092; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 00:51:17,092; [main]; DEBUG; org.hibernate.util.DTDEntityResolver;  - attempting to resolve on classpath under org/hibernate/
+29-08-2011 00:51:17,094; [main]; DEBUG; org.hibernate.util.DTDEntityResolver;  - located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+29-08-2011 00:51:17,131; [main]; DEBUG; org.hibernate.cfg.Configuration;  - hibernate.connection.driver_class=org.gjt.mm.mysql.Driver
+29-08-2011 00:51:17,131; [main]; DEBUG; org.hibernate.cfg.Configuration;  - hibernate.connection.password=fpu
+29-08-2011 00:51:17,131; [main]; DEBUG; org.hibernate.cfg.Configuration;  - hibernate.connection.url=jdbc:mysql://127.0.0.1:3306/hibernate
+29-08-2011 00:51:17,131; [main]; DEBUG; org.hibernate.cfg.Configuration;  - hibernate.connection.username=augusto
+29-08-2011 00:51:17,132; [main]; DEBUG; org.hibernate.cfg.Configuration;  - hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+29-08-2011 00:51:17,132; [main]; DEBUG; org.hibernate.cfg.Configuration;  - session-factory config [null] named class [br.com.branquinho.hibernate.database.entities.CategoriaEntity] for mapping
+29-08-2011 00:51:17,146; [main]; DEBUG; org.hibernate.cfg.Configuration;  - session-factory config [null] named class [br.com.branquinho.hibernate.database.entities.ProdutoEntity] for mapping
+29-08-2011 00:51:17,147; [main]; INFO ; org.hibernate.cfg.Configuration;  - Configured SessionFactory: null
+29-08-2011 00:51:17,148; [main]; DEBUG; org.hibernate.cfg.Configuration;  - properties: {hibernate.connection.password=fpu, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre6\bin, java.vm.version=20.0-b11, hibernate.connection.username=augusto, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\Workspace\hibernate-database, java.runtime.version=1.6.0_25-b06, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre6\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\augusto\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jre6\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Programas\apache_maven_3_0_3\bin;C:\Programas\apache-log4j-1.2.16\log4j-1.2.16.jar;D:\FPU\Disciplinas\Suporte ao Desenvolvimento de Software\Arquivos\eclipselink-2.3.0.v20110604-r9504\eclipselink, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\augusto, user.timezone=America/Sao_Paulo, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=Cp1252, java.specification.version=1.6, hibernate.connection.driver_class=org.gjt.mm.mysql.Driver, user.name=augusto, java.class.path=D:\Workspace\hibernate-database\bin;D:\Workspace\hibernate-utils\bin;D:\Workspace\hibernate-utils\libs\junit-4.9.jar;D:\Workspace\hibernate-utils\libs\log4j-1.2.16.jar;D:\Workspace\hibernate-utils\libs\commons-lang3-3.0.1.jar;D:\Workspace\hibernate-utils\libs\antlr-2.7.6.jar;D:\Workspace\hibernate-utils\libs\commons-collections-3.1.jar;D:\Workspace\hibernate-utils\libs\dom4j-1.6.1.jar;D:\Workspace\hibernate-utils\libs\hibernate-jpa-2.0-api-1.0.1.Final.jar;D:\Workspace\hibernate-utils\libs\javassist-3.12.0.GA.jar;D:\Workspace\hibernate-utils\libs\jta-1.1.jar;D:\Workspace\hibernate-utils\libs\slf4j-api-1.6.1.jar;D:\Workspace\hibernate-utils\libs\slf4j-api-1.6.2.jar;D:\Workspace\hibernate-utils\libs\slf4j-log4j12-1.6.2.jar;D:\Workspace\hibernate-utils\libs\hibernate3.jar;D:\Workspace\hibernate-utils\libs\mysql-connector-java-5.1.17-bin.jar;/C:/Programas/eclipse/configuration/org.eclipse.osgi/bundles/122/1/.cp/;/C:/Programas/eclipse/configuration/org.eclipse.osgi/bundles/120/1/.cp/;/C:/Programas/eclipse/configuration/org.eclipse.osgi/bundles/121/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.0, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 10507 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -test br.com.branquinho.hibernate.database.test.GerenciadorTest:deletarBancoDeDados, java.home=C:\Program Files\Java\jre6, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://127.0.0.1:3306/hibernate, user.language=pt, java.specification.vendor=Sun Microsystems Inc., awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_25, java.ext.dirs=C:\Program Files\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar;C:\Program Files\Java\jre6\classes, java.vendor=Sun Microsystems Inc., file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+29-08-2011 00:51:17,170; [main]; INFO ; org.hibernate.dialect.Dialect;  - Using dialect: org.hibernate.dialect.MySQL5Dialect
+29-08-2011 00:51:17,252; [main]; DEBUG; org.hibernate.cfg.Configuration;  - Processing hbm.xml files
+29-08-2011 00:51:17,252; [main]; DEBUG; org.hibernate.cfg.Configuration;  - Process annotated classes
+29-08-2011 00:51:17,262; [main]; INFO ; org.hibernate.cfg.AnnotationBinder;  - Binding entity from annotated class: br.com.branquinho.hibernate.database.entities.CategoriaEntity
+29-08-2011 00:51:17,306; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+29-08-2011 00:51:17,311; [main]; DEBUG; org.hibernate.cfg.AnnotationBinder;  - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+29-08-2011 00:51:17,320; [main]; DEBUG; org.hibernate.cfg.annotations.EntityBinder;  - Import with entity name CategoriaEntity
+29-08-2011 00:51:17,324; [main]; INFO ; org.hibernate.cfg.annotations.EntityBinder;  - Bind entity br.com.branquinho.hibernate.database.entities.CategoriaEntity on table tbCategoria
+29-08-2011 00:51:17,372; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=id, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,377; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - binding property id with lazy=false
+29-08-2011 00:51:17,379; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - building SimpleValue for id
+29-08-2011 00:51:17,381; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property id
+29-08-2011 00:51:17,387; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=descricao, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,388; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - binding property descricao with lazy=false
+29-08-2011 00:51:17,388; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - building SimpleValue for descricao
+29-08-2011 00:51:17,388; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property descricao
+29-08-2011 00:51:17,388; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=nome, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,389; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - binding property nome with lazy=false
+29-08-2011 00:51:17,389; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - building SimpleValue for nome
+29-08-2011 00:51:17,389; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property nome
+29-08-2011 00:51:17,391; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+29-08-2011 00:51:17,391; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=produtos, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,393; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=null, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,409; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=element, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,409; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbCategoria), mappingColumn=produtos_KEY, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,411; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3JoinColumn{logicalColumnName='produtos_KEY', referencedColumn='null', mappedBy='null'}
+29-08-2011 00:51:17,413; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+29-08-2011 00:51:17,413; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+29-08-2011 00:51:17,414; [main]; DEBUG; org.hibernate.cfg.annotations.CollectionBinder;  - Collection role: br.com.branquinho.hibernate.database.entities.CategoriaEntity.produtos
+29-08-2011 00:51:17,417; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property produtos
+29-08-2011 00:51:17,419; [main]; INFO ; org.hibernate.cfg.AnnotationBinder;  - Binding entity from annotated class: br.com.branquinho.hibernate.database.entities.ProdutoEntity
+29-08-2011 00:51:17,419; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+29-08-2011 00:51:17,420; [main]; DEBUG; org.hibernate.cfg.AnnotationBinder;  - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+29-08-2011 00:51:17,420; [main]; DEBUG; org.hibernate.cfg.annotations.EntityBinder;  - Import with entity name ProdutoEntity
+29-08-2011 00:51:17,420; [main]; INFO ; org.hibernate.cfg.annotations.EntityBinder;  - Bind entity br.com.branquinho.hibernate.database.entities.ProdutoEntity on table tbProduto
+29-08-2011 00:51:17,426; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbProduto), mappingColumn=id, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,426; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - binding property id with lazy=false
+29-08-2011 00:51:17,427; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - building SimpleValue for id
+29-08-2011 00:51:17,427; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property id
+29-08-2011 00:51:17,427; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+29-08-2011 00:51:17,427; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbProduto), mappingColumn=categoria, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,430; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property categoria
+29-08-2011 00:51:17,430; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbProduto), mappingColumn=descricao, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,430; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - binding property descricao with lazy=false
+29-08-2011 00:51:17,430; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - building SimpleValue for descricao
+29-08-2011 00:51:17,431; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property descricao
+29-08-2011 00:51:17,431; [main]; DEBUG; org.hibernate.cfg.Ejb3Column;  - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(tbProduto), mappingColumn=preco, insertable=true, updatable=true, unique=false}
+29-08-2011 00:51:17,431; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - binding property preco with lazy=false
+29-08-2011 00:51:17,431; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - building SimpleValue for preco
+29-08-2011 00:51:17,431; [main]; DEBUG; org.hibernate.cfg.annotations.PropertyBinder;  - Building property preco
+29-08-2011 00:51:17,432; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - Setting SimpleValue typeName for id
+29-08-2011 00:51:17,433; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - Setting SimpleValue typeName for descricao
+29-08-2011 00:51:17,433; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - Setting SimpleValue typeName for nome
+29-08-2011 00:51:17,433; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - Setting SimpleValue typeName for id
+29-08-2011 00:51:17,434; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - Setting SimpleValue typeName for descricao
+29-08-2011 00:51:17,434; [main]; DEBUG; org.hibernate.cfg.annotations.SimpleValueBinder;  - Setting SimpleValue typeName for preco
+29-08-2011 00:51:17,435; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing fk mappings (*ToOne and JoinedSubclass)
+29-08-2011 00:51:17,442; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing extends queue
+29-08-2011 00:51:17,442; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing extends queue
+29-08-2011 00:51:17,442; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing collection mappings
+29-08-2011 00:51:17,442; [main]; DEBUG; org.hibernate.cfg.CollectionSecondPass;  - Second pass for collection: br.com.branquinho.hibernate.database.entities.CategoriaEntity.produtos
+29-08-2011 00:51:17,442; [main]; DEBUG; org.hibernate.cfg.annotations.CollectionBinder;  - Binding a OneToMany: br.com.branquinho.hibernate.database.entities.CategoriaEntity.produtos through an association table
+29-08-2011 00:51:17,447; [main]; DEBUG; org.hibernate.cfg.CollectionSecondPass;  - Mapped collection key: tbCategoria_id, element: produtos_id
+29-08-2011 00:51:17,447; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing native query and ResultSetMapping mappings
+29-08-2011 00:51:17,447; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing association property references
+29-08-2011 00:51:17,447; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing foreign key constraints
+29-08-2011 00:51:17,448; [main]; DEBUG; org.hibernate.cfg.Configuration;  - resolving reference to class: br.com.branquinho.hibernate.database.entities.CategoriaEntity
+29-08-2011 00:51:17,448; [main]; DEBUG; org.hibernate.cfg.Configuration;  - resolving reference to class: br.com.branquinho.hibernate.database.entities.ProdutoEntity
+29-08-2011 00:51:17,448; [main]; DEBUG; org.hibernate.cfg.Configuration;  - resolving reference to class: br.com.branquinho.hibernate.database.entities.CategoriaEntity
+29-08-2011 00:51:17,449; [main]; INFO ; org.hibernate.cfg.Configuration;  - Hibernate Validator not found: ignoring
+29-08-2011 00:51:17,455; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+29-08-2011 00:51:17,456; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+29-08-2011 00:51:17,458; [main]; DEBUG; org.hibernate.cfg.Configuration;  - Processing hbm.xml files
+29-08-2011 00:51:17,458; [main]; DEBUG; org.hibernate.cfg.Configuration;  - Process annotated classes
+29-08-2011 00:51:17,459; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing fk mappings (*ToOne and JoinedSubclass)
+29-08-2011 00:51:17,459; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing extends queue
+29-08-2011 00:51:17,459; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing extends queue
+29-08-2011 00:51:17,459; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing collection mappings
+29-08-2011 00:51:17,461; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing native query and ResultSetMapping mappings
+29-08-2011 00:51:17,461; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing association property references
+29-08-2011 00:51:17,461; [main]; DEBUG; org.hibernate.cfg.Configuration;  - processing foreign key constraints
+29-08-2011 00:51:17,461; [main]; DEBUG; org.hibernate.cfg.Configuration;  - resolving reference to class: br.com.branquinho.hibernate.database.entities.CategoriaEntity
+29-08-2011 00:51:17,462; [main]; DEBUG; org.hibernate.cfg.Configuration;  - resolving reference to class: br.com.branquinho.hibernate.database.entities.ProdutoEntity
+29-08-2011 00:51:17,462; [main]; DEBUG; org.hibernate.cfg.Configuration;  - resolving reference to class: br.com.branquinho.hibernate.database.entities.CategoriaEntity
+29-08-2011 00:51:17,464; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+29-08-2011 00:51:17,465; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+29-08-2011 00:51:17,466; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+29-08-2011 00:51:17,466; [main]; DEBUG; org.hibernate.id.factory.DefaultIdentifierGeneratorFactory;  - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+29-08-2011 00:51:17,471; [main]; INFO ; org.hibernate.tool.hbm2ddl.SchemaExport;  - Running hbm2ddl schema export
+29-08-2011 00:51:17,473; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - import file not found: /import.sql
+29-08-2011 00:51:17,473; [main]; INFO ; org.hibernate.tool.hbm2ddl.SchemaExport;  - exporting generated schema to database
+29-08-2011 00:51:17,476; [main]; INFO ; org.hibernate.connection.DriverManagerConnectionProvider;  - Using Hibernate built-in connection pool (not for production use!)
+29-08-2011 00:51:17,476; [main]; INFO ; org.hibernate.connection.DriverManagerConnectionProvider;  - Hibernate connection pool size: 20
+29-08-2011 00:51:17,477; [main]; INFO ; org.hibernate.connection.DriverManagerConnectionProvider;  - autocommit mode: false
+29-08-2011 00:51:17,487; [main]; INFO ; org.hibernate.connection.DriverManagerConnectionProvider;  - using driver: org.gjt.mm.mysql.Driver at URL: jdbc:mysql://127.0.0.1:3306/hibernate
+29-08-2011 00:51:17,487; [main]; INFO ; org.hibernate.connection.DriverManagerConnectionProvider;  - connection properties: {user=augusto, password=fpu}
+29-08-2011 00:51:17,488; [main]; DEBUG; org.hibernate.connection.DriverManagerConnectionProvider;  - opening new JDBC connection
+29-08-2011 00:51:17,853; [main]; DEBUG; org.hibernate.connection.DriverManagerConnectionProvider;  - created connection to: jdbc:mysql://127.0.0.1:3306/hibernate, Isolation Level: 4
+29-08-2011 00:51:17,855; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - alter table tbCategoria_tbProduto drop foreign key FK6332F514D796CFF
+29-08-2011 00:51:18,008; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - alter table tbCategoria_tbProduto drop foreign key FK6332F51251C8510
+29-08-2011 00:51:18,079; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - alter table tbProduto drop foreign key FK43FBE0ABA6D19391
+29-08-2011 00:51:18,112; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - drop table if exists tbCategoria
+29-08-2011 00:51:18,117; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - drop table if exists tbCategoria_tbProduto
+29-08-2011 00:51:18,121; [main]; DEBUG; org.hibernate.tool.hbm2ddl.SchemaExport;  - drop table if exists tbProduto
+29-08-2011 00:51:18,126; [main]; INFO ; org.hibernate.tool.hbm2ddl.SchemaExport;  - schema export complete
+29-08-2011 00:51:18,129; [main]; INFO ; org.hibernate.connection.DriverManagerConnectionProvider;  - cleaning up connection pool: jdbc:mysql://127.0.0.1:3306/hibernate
+29-08-2011 00:51:32,157; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:21:24,980; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:21:34,555; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:21:53,856; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:21:54,804; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - Unsuccessful: create table tbCategoria (id integer not null auto_increment, descricao varchar(255), nome varchar(255), primary key (id))
+29-08-2011 01:21:54,805; [main]; ERROR; org.hibernate.tool.hbm2ddl.SchemaExport;  - Table 'tbcategoria' already exists
+29-08-2011 01:21:59,803; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:22:47,872; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:22:53,712; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:25:14,656; [main]; INFO ; br.com.branquinho.hibernate.database.test.ManageDatabaseTest;  - Droping new tables.
+29-08-2011 01:25:14,994; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:25:21,672; [main]; INFO ; br.com.branquinho.hibernate.database.test.ManageDatabaseTest;  - Creating new tables.
+29-08-2011 01:25:22,013; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 01:29:08,779; [main]; INFO ; br.com.branquinho.hibernate.database.test.ManageDatabaseTest;  - Droping tables.
+29-08-2011 01:29:09,266; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:11:37,247; [main]; INFO ; br.com.branquinho.hibernate.database.test.ManageDatabaseTest;  - Creating tables.
+29-08-2011 23:11:37,567; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:12:57,052; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:12:57,361; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:12:58,556; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@1f48e23b[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  products=[]
+  logger=org.apache.log4j.Logger@69fc9f88
+]]
+29-08-2011 23:14:23,849; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:14:24,195; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:14:25,226; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@19fcbac1[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  products=[]
+]]
+29-08-2011 23:19:14,403; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:19:14,714; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:19:15,861; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@743bce70[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  products=[]
+]]
+29-08-2011 23:20:31,128; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:20:31,435; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:20:32,609; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@741b3967[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  products=[]
+]]
+29-08-2011 23:22:15,167; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:22:15,518; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:22:16,594; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@2755d4be[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  products=[]
+]]
+29-08-2011 23:22:16,601; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@219b6225[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@60487c5f[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  products=[]
+]
+]]
+29-08-2011 23:27:41,707; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:27:42,022; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:27:43,203; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@741b3967[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]]
+29-08-2011 23:27:43,210; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@49d29a78[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@219b6225[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]
+]]
+29-08-2011 23:27:54,653; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:27:54,972; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:34:07,070; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:34:07,394; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:34:08,430; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@19fcbac1[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]]
+29-08-2011 23:34:08,437; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@530ce397[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@7331f919[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]
+]]
+29-08-2011 23:35:57,277; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:35:57,608; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:35:58,617; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@743bce70[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]]
+29-08-2011 23:35:58,625; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@47ed081[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@21aac775[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]
+]]
+29-08-2011 23:43:19,692; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:43:20,056; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:43:21,220; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@6ca02839[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]]
+29-08-2011 23:43:21,221; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@6b0ede6[
+  id=2
+  name=Category 01.
+  description=Description of the category 01.
+  producties=[]
+]]
+29-08-2011 23:43:21,228; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@4799a84f[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@38f8ff42[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]
+]]
+29-08-2011 23:43:58,464; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:43:58,876; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:44:00,011; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@49d29a78[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]]
+29-08-2011 23:44:00,011; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@219b6225[
+  id=2
+  name=Category 01.
+  description=Description of the category 01.
+  producties=[]
+]]
+29-08-2011 23:44:00,012; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@60487c5f[
+  id=3
+  name=Name Category 02.
+  description=Description of the Category 02.
+  producties=[]
+]]
+29-08-2011 23:44:00,018; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@14e7bb91[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@79cb374f[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]
+]]
+29-08-2011 23:49:22,775; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Starting the program.
+29-08-2011 23:49:23,157; [main]; WARN ; org.hibernate.util.DTDEntityResolver;  - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+29-08-2011 23:49:24,537; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@60487c5f[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]]
+29-08-2011 23:49:24,538; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@36dd725b[
+  id=2
+  name=Category 01.
+  description=Description of the category 01.
+  producties=[]
+]]
+29-08-2011 23:49:24,538; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Category [br.com.branquinho.hibernate.utils.database.beans.CategoryBean@47ed081[
+  id=3
+  name=Name Category 02.
+  description=Description of the Category 02.
+  producties=[]
+]]
+29-08-2011 23:49:24,548; [main]; INFO ; br.com.branquinho.hibernate.database.HibernateMain;  - Product [br.com.branquinho.hibernate.utils.database.beans.ProductBean@c9c6201[
+  id=2
+  description=Item de um produto.
+  name=<null>
+  price=12.0
+  category=br.com.branquinho.hibernate.utils.database.beans.CategoryBean@6ee6361e[
+  id=1
+  name=Produto 01
+  description=Produto de consumo.
+  producties=[]
+]
+]]
