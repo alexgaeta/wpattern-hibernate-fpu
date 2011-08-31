@@ -15,7 +15,6 @@
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/junit-4.9.jar"/>
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/mysql-connector-java-5.1.17-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/slf4j-api-1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/slf4j-log4j12-1.6.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
