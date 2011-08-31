@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>der.mwb</name>
+			<type>1</type>
+			<location>C:/Users/augusto/git/FpuRepository/hibernate-database/der.mwb</location>
+		</link>
+	</linkedResources>
 </projectDescription>
