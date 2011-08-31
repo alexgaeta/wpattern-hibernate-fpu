@@ -1,12 +1,20 @@
 package br.com.branquinho.hibernate.application.gui;
 
 import java.awt.EventQueue;
+import java.awt.GridLayout;
+import java.util.List;
 
 import javax.swing.JFrame;
 
+import br.com.branquinho.hibernate.database.ServicesFactory;
+import br.com.branquinho.hibernate.utils.database.beans.CategoryBean;
+import br.com.branquinho.hibernate.utils.database.interfaces.IServicesFactory;
+
 public class HibernateApplicationWindow {
 
-	private JFrame frame;
+	private JFrame frmHibernateSample;
+
+	private static final IServicesFactory serviceFactory = new ServicesFactory();
 
 	/**
 	 * Launch the application.
@@ -17,7 +25,7 @@ public class HibernateApplicationWindow {
 			public void run() {
 				try {
 					HibernateApplicationWindow window = new HibernateApplicationWindow();
-					window.frame.setVisible(true);
+					window.frmHibernateSample.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -36,9 +44,25 @@ public class HibernateApplicationWindow {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		this.frame = new JFrame();
-		this.frame.setBounds(100, 100, 800, 600);
-		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.frmHibernateSample = new JFrame();
+		this.frmHibernateSample.setTitle("Hibernate Sample");
+		this.frmHibernateSample.setBounds(100, 100, 800, 600);
+		this.frmHibernateSample.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.frmHibernateSample.getContentPane().setLayout(new GridLayout(1, 0, 0, 0));
+
+		CategoryGridPanel categoryGridPanel = new CategoryGridPanel();
+		this.frmHibernateSample.getContentPane().add(categoryGridPanel);
+
+		loadCategories(categoryGridPanel);
+	}
+
+	private void loadCategories(CategoryGridPanel categoryGridPanel) {
+
+		List<CategoryBean> categories = serviceFactory.getCategoryService().findAllCategories();
+
+		for (CategoryBean category : categories) {
+			categoryGridPanel.addCategoryRow(category);
+		}
 	}
 
 }
