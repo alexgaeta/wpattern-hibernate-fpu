@@ -8,6 +8,6 @@
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/commons-lang3-3.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/junit-4.9.jar"/>
 	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="miglayout15-swing.jar" sourcepath="miglayout-src.zip"/>
+	<classpathentry kind="lib" path="C:/Users/augusto/git/FpuRepository/hibernate-utils/libs/miglayout15-swing.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
